@@ -1,24 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>testsite</title>
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-    <body>
-        <header></header>
-        <div class="top-wrapper">
-            <div class="container">
-                <!-- ここにあとで犬の写真を挿入する -->
-                <h1 class="title">あきらと</h1>
-                <p>HTMLを覚え始めたので遊びで自己紹介ページをつくってみました</p>
-                <p>内容は適当なので真に受けないでね(*´ω｀*)</p>
-                <a href="https://twitter.com/sutoramu" class="btn twitter">Twitterアカウントはこちら</a>
-                <a href="https://note.com/sutoramu" class="btn note">noteアカウントはこちら</a>
-            </div>
-        </div>
-        <footer>
-        </footer>
-    </body>
-   
-</html>
+
+body {
+    /* ↓margin:0はデフォで入ってたから入れた。なくしたら動いたから意味ありそう↓ */
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+/* ↓ ここの意図は正直不明 ↓ */
+a{
+    text-decoration: none;
+}
+
+.top-wrapper{
+    padding-top:180px ;
+    padding-bottom: 100px ;
+    /* ここにbackground-imageを後で挿入する（海の写真） */
+    background-image:url(https://github.com/sutoramu/sutoramu/blob/main/4CB58F36-39C8-401B-99B5-F3F5DC0B12F2.jpeg);
+    background-size:cover;
+    /* 写真を入れたらここでcolorをwhiteにすること */
+}
+
+.container{
+    width: 1170px ;
+    padding: 0 15px ;
+    margin: 0 auto;
+}
