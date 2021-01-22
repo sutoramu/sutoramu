@@ -1,0 +1,12 @@
+header{
+    background-color: gray;
+    font-size: 25px;
+    color:white;
+    font-family: serif;
+    padding: 5px 40px;
+    text-align: center;   
+}
+
+li{
+    list-style:none
+}
