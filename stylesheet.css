@@ -10,18 +10,76 @@ a{
     text-decoration: none;
 }
 
+header{
+    height:50px;
+    width:100%;
+    background-color:rgba(23, 6, 70, 0.7);
+    position:fixed;
+    top:0px;
+    z-index: 10;
+}
+
+.header-left{
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-left a{
+    line-height: 50px;
+    padding: 0 25px;
+    color:white;
+    display: block;
+    background-color :rgba(102, 140, 211, 0.7);
+}
+
+.header-left:hover{
+    background-color :rgba(102, 140, 211, 1.0);
+}
+
+.header-right{
+    float: right;
+    margin-right:30px;
+    transition: all 0.5s;
+}
+
+.header-right a {
+    line-height: 50px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    background-color: rgba(102, 140, 211, 0.7);
+}
+
+.header-right:hover{
+    background-color :rgba(102, 140, 211, 1.0);
+}
+
 .top-wrapper{
-    padding-top:180px ;
-    padding-bottom: 100px ;
-    /* ここにbackground-imageを後で挿入する（海の写真） */
+    padding-top: 120px ;
+    padding-bottom: 20px ;
     background-image:url(4CB58F36-39C8-401B-99B5-F3F5DC0B12F2.jpeg);
     background-size:cover;
-    /* 写真を入れたらここでcolorをwhiteにすること */
     color:white;
 }
 
+.dog{
+    width: 240px ;
+    height: 240px ;
+    border-radius: 120px ;
+}
+
 .container{
-    width: 1170px ;
+    width: 100% ;
     padding: 0 15px ;
     margin: 0 auto;
+    text-align:center;
+}
+
+.container h1{
+    letter-spacing: 5px ;
+    height: 20px ;
+}
+
+.id {
+    font-size: 14px;
 }
