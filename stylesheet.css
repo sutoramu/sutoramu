@@ -38,7 +38,6 @@ header{
 
 .header-right{
     float: right;
-    margin-right:30px;
     transition: all 0.5s;
 }
 
@@ -55,7 +54,7 @@ header{
 }
 
 .top-wrapper{
-    padding-top: 120px ;
+    padding-top: 80px ;
     padding-bottom: 20px ;
     background-image:url(4CB58F36-39C8-401B-99B5-F3F5DC0B12F2.jpeg);
     background-size:cover;
@@ -69,7 +68,7 @@ header{
 
 .container{
     width: 100% ;
-    padding: 0 15px ;
+    padding: 25px ;
     margin: 0 auto;
     text-align:center;
     color:white;
@@ -85,18 +84,38 @@ header{
     font-size: 14px;
 }
 
+.personality{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.perso-title h2{
+    font-weight:normal;
+    color:gray;
+    height:25px;
+}
+
 .contact{
     text-align:center;
-    padding:20px 50px;
+}
+
+.contact h2{
+    font-weight:normal;
+    color:gray;
+    height:25px;
+    letter-spacing: 3px;
 }
 
 .btn a{
     color:white;
     display: block;
     width: 100px;
-    height:50px;
-    line-height:50px;
-    opacity:0.7;
+    height:26px;
+    line-height:26px;
+    opacity:0.8;
+    font-size:12px;
+    /* ↓ ここの面取りがうまくかからない ↓ */
+    border-radius: 8px ;
 }
 
 .btn{
@@ -106,10 +125,21 @@ header{
 
 .btn-twi{
     background-color: #3b5998;
-
     margin-right: 5px;
+    transition: all 0.5s;
 }
 
 .btn-note{
     background-color: #239b76;
+    transition: all 0.5s;
+}
+
+.btn-twi:hover{
+    background-color: #4568b6;
+    opacity:0.8;
+}
+
+.btn-note:hover{
+    background-color: #28b88d;
+    opacity:0.8;
 }
