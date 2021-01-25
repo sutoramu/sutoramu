@@ -56,7 +56,7 @@ header{
 .top-wrapper{
     padding-top: 80px ;
     padding-bottom: 20px ;
-    background-image:url(4CB58F36-39C8-401B-99B5-F3F5DC0B12F2.jpeg);
+    background-image:url(/Users/kageyamaakira/Downloads/4CB58F36-39C8-401B-99B5-F3F5DC0B12F2.jpeg);
     background-size:cover;
 }
 
@@ -93,6 +93,7 @@ header{
     font-weight:normal;
     color:gray;
     height:25px;
+    letter-spacing: 5px;
 }
 
 .contact{
@@ -103,7 +104,7 @@ header{
     font-weight:normal;
     color:gray;
     height:25px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 .btn a{
