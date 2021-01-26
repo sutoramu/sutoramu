@@ -116,7 +116,7 @@ header{
     }
 }
 
-@media(max-width:1000px){
+@media(max-width:670px){
     .perso-contents{
         width:100%;
     }
