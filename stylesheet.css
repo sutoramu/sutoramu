@@ -18,6 +18,7 @@ header{
     height:50px;
     width:100%;
     background-color:rgba(23, 6, 70, 1.0);
+    text-align: center;
     position:fixed;
     top:0px;
     z-index: 10;
@@ -30,6 +31,7 @@ header{
 }
 
 .header-left a{
+    width:184px;
     line-height: 50px;
     padding: 0 25px;
     color:white;
@@ -42,6 +44,7 @@ header{
 }
 
 .header-right{
+    width:184px;
     float: right;
     transition: all 0.5s;
     margin-right:15px;
