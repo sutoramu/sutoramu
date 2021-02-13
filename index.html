@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- ページの簡単な説明を入力しているもの -->
+  <meta name="description" content="sutoramu-portfolio">
+  <!-- 作者情報を示すもの -->
+  <meta name="author" content="sutoramu">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sutoramu" />
+  <meta property="og:url" content="https://sutoramu.com/" />
+  <meta property="og:title" content="Sutoramu-Portfolio" />
+  <meta property="og:description" content="あきらとのポートフォリオサイトです(*´ω｀*)" />
+  <meta property="og:image" content="https://sutoramu.com/img/note-icon.png" />
+
+  <title>sutoramu-Portfolio</title>
+
+  <!-- favicon href内はファイルのURL とりあえずファイルパス置いてある タイプにてpng指定済み -->
+  <link href="./img/favicon.png" rel="icon" type="image/png">
+
+  <!-- font-awesome読み込み -->
+  <script src="https://kit.fontawesome.com/5b24d344c4.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- ファイル内CSS読み込み -->
+  <!-- standard.css は reset.css の挙動を含む -->
+  <link rel="stylesheet" href="./css/standard.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./js/script.js">
+
+</head>
+
+<body>
+
+  <div class="wrap">
+
+
+    <!-- Navbar -->
+
+    <nav id="navbar-scrollspy" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container font-italic">
+        <a class="navbar-brand" style="color: gray;" href="#">Sutoramu-Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- scrollspy実装のためnav-pillsが直下のulクラスに必要と思われるが動作実装できずマーキングが常にcontactに出てしまうため一旦削除 -->
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="color: gray;" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active ml-30">
+              <a class="nav-link" style="color: gray;" href="#about">About</a>
+            </li>
+            <li class="nav-item active ml-30">
+              <a class="nav-link" style="color: gray;" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item active ml-30">
+              <a class="nav-link" style="color: gray;" href="#work">Work</a>
+            </li>
+            <li class="nav-item active ml-30">
+              <a class="nav-link" style="color: gray;" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item active ml-30">
+              <a class="nav-link" style="color: gray;" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div data-spy="scroll" datatarget="#navbar-scrollspy" dataoffset="0">
+
+
+      <section id="home" class="top py-100"
+        style="background-image: url(./img/top-bgi.jpeg); background-size: cover; background-position: bottom;">
+        <div class="container py-100">
+          <h1 class="display-1 mb-15">Hello , I'm
+            <span class="font-weight-bold font-italic">Akirato</span>
+            !
+          </h1>
+          <p class="mb-25 lead fz-20" style="margin-left: 5px;">Leaner of
+            <span class="font-italic fz-25">
+              <span class="ml-20">HTML/CSS</span>
+              <span class="ml-20">Bootstrap</span>
+              <span class="ml-20">Applications</span>
+            </span>
+            <span>.</span>
+          </p>
+          <!--About Social Icons-->
+          <div class="social-icons mt-15 ml-1">
+            <a href="https://twitter.com/sutoramu"><i class="fab fa-twitter"></i></a>
+            <a href="https://note.com/sutoramu"><i class="far fa-file-alt"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about mb-50">
+        <div class="container py-100">
+          <h2 class="subtitle">About</h2>
+          <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+              <img class="prof-img" src="./img/note-icon.png" alt="あきらとのアイコン">
+            </div>
+            <div class="col-md-9 about-right">
+              <h3 class="fz-28">あきらと</h3>
+              <p class="my-30 fz-16">バーピーとステッパーを愛する30歳💪🙃。プログラミング学習中⌨️😊(2021.1.22〜)。note企画 <a style="color:gray;"
+                  href="https://note.com/hashtag/%E5%91%91%E3%81%BF%E3%81%AA%E3%81%8C%E3%82%89%E6%9B%B8%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F">#呑みながら書きました</a>
+                共催🍻🥳🍻</p>
+              <p class="fz-16"><i class="fas fa-birthday-cake mr-10"></i>1990年12月30日</p>
+              <p class="fz-16"><i class="fas fa-guitar mr-10"></i>I like playing the guitar!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skill" class="skill mb-50 bg-light">
+        <div class="container py-100">
+          <h2 class="subtitle">Skill(学習中)</h2>
+          <div class="card-deck">
+            <div class="card">
+              <i class="fa fa-file-code icon"></i>
+              <div class="card-body">
+                <h5 class="card-title text-center fz-28 mb-20">HTML / CSS</h5>
+                <p class="card-text fz-14">HTMLとCSSを用いたシンプルなサイトが作れます</p>
+              </div>
+            </div>
+            <div class="card">
+              <i class="fab fa-bootstrap icon"></i>
+              <div class="card-body">
+                <h5 class="card-title text-center fz-28 mb-20">Bootstrap</h5>
+                <p class="card-text fz-14">Bootstrapをつかったレスポンシブなサイトが作れます</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="icons" style="display: flex; justify-content: space-around;">
+                <i class="fab fa-apple icon"></i>
+                <i class="fab fa-android icon"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center fz-28 mb-20">Applications（学習中）</h5>
+                <p class="card-text fz-14">iOSアプリ・Androidアプリをこれから作れるように勉強中です</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="work">
+        <div class="container py-100">
+          <h2 class="subtitle">Work (under construction)</h2>
+        </div>
+      </section>
+
+      <section id="blog" class="blog mb-50 bg-light">
+        <div class="container py-100">
+          <h2 class="subtitle">BLOG</h2>
+          <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+              <img class="prof-img" src="./img/favicon.png" alt="あきらとのアイコン">
+            </div>
+            <div class="col-md-9 about-right">
+              <h3 class="fz-28"><a style="color:gray;" href="https://note.com/sutoramu">note</a></h3>
+              <p class="mt-30 fz-16"><i class="far fa-calendar-alt mr-10"></i>Since 2019年6月〜</p>
+              <p class="mb-30 fz-16"><i class="fas fa-keyboard mr-10" style="font-size: 14px;"></i>note企画 <a
+                  style="color:gray;"
+                  href="https://note.com/hashtag/%E5%91%91%E3%81%BF%E3%81%AA%E3%81%8C%E3%82%89%E6%9B%B8%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F">#呑みながら書きました</a>
+                共催🍻</p>
+              <a class="btn btn-outline-primary w-25" href="https://note.com/sutoramu" role="button">note</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container py-100">
+          <h2 class="subtitle">Contact</h2>
+          <p class="text-center"><a href="https://twitter.com/sutoramu" class="mr-10">
+              <i class="fab fa-twitter mx-10"></i>Twitter</a></p>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="py-10" style="background-color: gray;">
+      <div class="container">
+        <p class="font-italic text-white text-center">Sutoramu-Portfolio</p>
+      </div>
+    </footer>
+
+
+
+
+
+
+    <!-- ↓↓↓ 以下、Bootstrapスターターテンプレートより拝借したもの ↓↓↓ -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+    <!-- ↑↑↑ 以下、Bootstrapスターターテンプレートより拝借したもの ↑↑↑ -->
+
+    <script src="./js/script.js"></script>
+
+  </div>
+</body>
+
+</html>
