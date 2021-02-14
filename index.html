@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- 後半の maximum-scale と minimum-scale がないと メディアクエリが上手くきかなかった？ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <!-- ページの簡単な説明を入力しているもの -->
+  <meta name="description" content="sutoramu-portfolio">
+  <!-- 作者情報を示すもの -->
+  <meta name="author" content="sutoramu">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sutoramu" />
+  <meta property="og:url" content="https://sutoramu.com/" />
+  <meta property="og:title" content="Sutoramu-Portfolio" />
+  <meta property="og:description" content="あきらとのポートフォリオサイトです(*´ω｀*)" />
+  <meta property="og:image" content="https://sutoramu.com/img/note-icon.png" />
+
+  <title>あきらとのポートフォリオ2</title>
+
+  <!-- favicon href内はファイルのURL とりあえずファイルパス置いてある タイプにてpng指定済み -->
+  <link href="./favicon.png" rel="icon" type="image/png">
+
+  <!-- font-awesome読み込み -->
+  <script src="https://kit.fontawesome.com/5b24d344c4.js" crossorigin="anonymous"></script>
+
+  <!-- ファイル内CSS読み込み -->
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- jQuery読み込み -->
+  <script type="text/javascript" charset="utf-8"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- home -->
+
+  <header>
+    <div class="header-container" id="home">
+      <div class="header-left">
+        <a href="#home">Akirato's Portfolio</a>
+      </div>
+      <div class="header-right">
+        <ul class="header-items">
+          <li class="header-item"><a href="#" class="home-go">Home</a></li>
+          <li class="header-item"><a href="#" class="about-go">About</a></li>
+          <li class="header-item"><a href="#" class="skill-go">Skill</a></li>
+          <li class="header-item"><a href="#" class="work-go">Work</a></li>
+          <li class="header-item"><a href="#" class="blog-go">Blog</a></li>
+          <li class="header-item"><a href="#" class="contact-go">Contact</a></li>
+        </ul>
+        <div class="header-items-media">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <ul class="header-item-media">
+        <li><a href="#" class="home-go">Home</a></li>
+        <li><a href="#" class="about-go">About</a></li>
+        <li><a href="#" class="skill-go">Skill</a></li>
+        <li><a href="#" class="work-go">Work</a></li>
+        <li><a href="#" class="blog-go">Blog</a></li>
+        <li><a href="#" class="contact-go">Contact</a></li>
+      </ul>
+    </header>
+    
+    
+    <section class="top">
+      </div>
+    <div class="container">
+      <h1 class="greet">Hello , I'm <span class="name">Akirato</span> !</h1>
+      <p class="greet-sentence">Learner of
+        <span class="langu-item">HTML/CSS</span>
+        <span class="langu-item">jQuery</span>
+        <span class="langu-item">Bootstrap</span>
+        <span class="langu-item">Applications</span> .
+      </p>
+      <a href="https://twitter.com/sutoramu"><i class="fab fa-twitter"></i></a>
+      <a href="https://note.com/sutoramu"><i class="far fa-file-alt"></i></a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title prof-title">About</h2>
+      <div class="prof-contents">
+        <div class="prof-contents-left">
+          <img src="./note-icon.png" alt="" class="note-icon">
+        </div>
+        <div class="prof-contents-right">
+          <h3>あきらと</h3>
+          <p>バーピーとステッパーを愛する30歳💪🙃。プログラミング学習中⌨️😊(2021.1.22〜)。note企画 <a style="color:gray;"
+              href="https://note.com/hashtag/%E5%91%91%E3%81%BF%E3%81%AA%E3%81%8C%E3%82%89%E6%9B%B8%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F">#呑みながら書きました</a>
+            共催🍻🥳🍻</p>
+          <p><i class="fas fa-birthday-cake"></i> 1990年12月30日<br><i class="fas fa-guitar"></i> I like playing the
+            guitar!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="skill" id="skill">
+    <div class="container">
+      <h2 class="section-title">Skill (App学習中！)</h2>
+      <div class="skill-items">
+        <div class="skill-item">
+          <i class="fa fa-file-code icon"></i>
+          <p class="skill-item-intro">HTML/CSS</p>
+          <p class="skill-item-sentence">HTML/CSSを用いたシンプルなサイトが作れます！ デザインも徐々に勉強中！</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-js-square icon"></i>
+          <p class="skill-item-intro">jQuery</p>
+          <p class="skill-item-sentence">jQueryをつかって動きのあるWEBサイトが作れます！ 見やすいサイトを作れるよう勉強中！</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-bootstrap icon"></i>
+          <p class="skill-item-intro">Bootstrap</p>
+          <p class="skill-item-sentence">Bootstrapを使ったレスポンシブなサイトを作ります！ スマホ・PC両方の表示に対応！</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-apple icon app-icon"></i>
+          <i class="fab fa-android icon app-icon"></i>
+          <p class="skill-item-intro">Applications</p>
+          <p class="skill-item-sentence">iOSアプリ、Androidアプリをつくれるように学習中！ 使いやすいメモ帳アプリをつくってみたい！</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="container">
+      <h2 class="section-title">Work（がんばりまーす！）</h2>
+    </div>
+  </section>
+
+  <section class="blog" id="blog">
+    <div class="container">
+      <h2 class="section-title">Blog</h2>
+      <div class="prof-contents">
+        <div class="prof-contents-left">
+          <img src="./favicon.png" alt="" class="twi-icon">
+        </div>
+        <div class="prof-contents-right">
+          <h3>note</h3>
+          <p>エッセイをメインに書いています。note企画 <a style="color:gray;"
+              href="https://note.com/hashtag/%E5%91%91%E3%81%BF%E3%81%AA%E3%81%8C%E3%82%89%E6%9B%B8%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F">#呑みながら書きました</a>
+            共催🍻🥳🍻</p>
+          <p><i class="far fa-calendar-alt"></i>Since 2019年6月〜</p>
+          <a href="https://note.com/sutoramu" class="sns-link" type="button">noteはこちら</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal-note(デフォルト非表示) -->
+  <section class="modal-note-wrapper">
+    <div class="modal">
+      <img src="./note-icon.png" alt="" id="note-icon-big">
+      <p>サイトを見てくれてありがとう！(*´ω｀*)<br>画面を押せばもどれるよ！</p>
+    </div>
+  </section>
+
+  <!-- modal-twi(デフォルト非表示) -->
+  <section class="modal-twi-wrapper">
+    <div class="modal">
+      <img src="./favicon.png" alt="" id="twi-icon-big">
+      <p>サイトを見てくれてありがとう！(*´ω｀*)<br>画面を押せばもどれるよ！</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-link">
+        <a href="https://twitter.com/sutoramu" class="sns-link" type="button">ご連絡はTwitterまで</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <p>Sutoramu-Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
